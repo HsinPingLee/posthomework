@@ -3,18 +3,21 @@
   <head>
     <meta charest=utf-8>
     <title>Maggie Lee hw3</title>
-    <link href="hw3.css" rel="stylesheet" >
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
   <body>
-
+    <!--get-->
+    <a>get form</a>
     <form action="/get_data" method="get">
       first name: <input name="fname" type="text"><br>
       last name: <input name="lname" type="text"<br><br>
       <button type="submit">submit via get</button>
     </form>
 
+    <!--ajax get-->
+    <br>
+    <a>ajax get form</a>
     <form id='ajax_form'>
       first name: <input name="fname" type="text"><br>
       last name: <input name="lname" type="text"><br>
@@ -22,6 +25,8 @@
       <h1 id="ajax_content"></h1>
     </form>
 
+    <!--ajax post-->
+    <a>ajax post</a>
     <form id='ajax_form2'>
       first name: <input name="fname" type="text"><br>
       last name: <input name="lname" type="text"><br>
@@ -29,6 +34,8 @@
       <h1 id="ajax_content2"></h1>
     </form>
 
+    <!--post + name.json-->
+    <a>type your id number</a>
     <form action="/post_data" method="post">
       idnumber: <input name="fname" type="text"><br/>
       <button type="submit">submit via post</button>
