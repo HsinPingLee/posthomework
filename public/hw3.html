@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charest=utf-8>
+    <title>Maggie Lee hw3</title>
+    <link href="hw3.css" rel="stylesheet" >
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <form action="/get_data" method="get">
+      first name: <input name="fname" type="text"><br>
+      last name: <input name="lname" type="text"<br><br>
+      <button type="submit">submit via get</button>
+    </form>
+
+    <form id='ajax_form'>
+      first name: <input name="fname" type="text"><br>
+      last name: <input name="lname" type="text"><br>
+      <button type="submit" id=ajax_btn>submit via ajax</button>
+      <h1 id="ajax_content"></h1>
+    </form>
+
+    <form id='ajax_form2'>
+      first name: <input name="fname" type="text"><br>
+      last name: <input name="lname" type="text"><br>
+      <button type="submit" id=ajax_btn2>submit via ajax</button>
+      <h1 id="ajax_content2"></h1>
+    </form>
+
+    <form action="/post_data" method="post">
+      idnumber: <input name="fname" type="text"><br/>
+      <button type="submit">submit via post</button>
+      <h1 id='post_content'></h1>
+    </form>
+      
+    <script src="hw3.js"></script>
+  </body>
+
+</html>
+
+
