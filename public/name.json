@@ -3,6 +3,12 @@
   "B12345678": "Bob",
   "F34046058": "Maggie",
   "E24056988": "He Tai-Liang",
+<<<<<<< Updated upstream
   "E24044101": "Manshao",
   "E24056051": "YiCheng"
+=======
+  "E24056051": "YiCheng",
+  "E24044101": "manshao"
+
+>>>>>>> Stashed changes
 } 
